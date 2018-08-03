@@ -1,0 +1,1181 @@
+2018-05-17 12:39:47,757 ERROR 1780 nodejs.ClusterClientNoResponseError: client no response in 2157105ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/manageServer/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 1780
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-17 16:32:02,612 ERROR 5532 [-/127.0.0.1/-/18ms DELETE /v1/authority/5afd2de479a85811ddcad7cc] nodejs.TypeError: (intermediate value).destory is not a function
+    at AuthorityController.destroy (/Users/zhb/TypeScript/manageServer/app/controller/authority.ts:17:17)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/zhb/TypeScript/manageServer/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 5532
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-17 18:30:24,144 ERROR 7772 nodejs.ClusterClientNoResponseError: client no response in 356922ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/manageServer/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 7772
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-17 18:54:49,292 ERROR 7772 nodejs.ClusterClientNoResponseError: client no response in 145959ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/manageServer/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 7772
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-18 12:55:02,690 ERROR 3738 nodejs.ClusterClientNoResponseError: client no response in 469330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/manageServer/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 3738
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-18 15:13:09,043 ERROR 2868 nodejs.ClusterClientNoResponseError: client no response in 185490ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/manageServer/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 2868
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-18 17:02:55,112 ERROR 5715 [egg-mongoose] mongodb://127.0.0.1:27017/easyclub disconnected
+2018-05-18 17:02:55,112 ERROR 5716 [egg-mongoose] mongodb://127.0.0.1:27017/easyclub disconnected
+2018-05-19 14:05:09,648 ERROR 1352 nodejs.ClusterClientNoResponseError: client no response in 590500ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/manageServer/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 1352
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 15:56:46,017 ERROR 3275 [-/127.0.0.1/-/11ms GET /admin/v1/video?per_page=5&page=0] nodejs.TypeError: permission.isallow is not a function
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:9:29)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/zhb/TypeScript/manageServer/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 3275
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 15:57:59,366 ERROR 3336 [-/127.0.0.1/-/12ms GET /admin/v1/video?per_page=5&page=0] nodejs.TypeError: permission.isAllow is not a function
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:9:29)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/zhb/TypeScript/manageServer/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 3336
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 15:59:53,895 ERROR 3393 [-/127.0.0.1/-/10ms GET /admin/v1/video?per_page=5&page=0] nodejs.TypeError: permission is not a constructor
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:9:16)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/zhb/TypeScript/manageServer/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 3393
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 16:11:31,784 ERROR 3641 [-/127.0.0.1/-/9ms GET /admin/v1/video?per_page=5&page=0] nodejs.TypeError: permission.permission is not a function
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:9:28)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/zhb/TypeScript/manageServer/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 3641
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 16:19:13,975 ERROR 3847 [-/127.0.0.1/-/14ms GET /admin/v1/video?per_page=5&page=0] nodejs.TypeError: permission is not a constructor
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:9:16)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/zhb/TypeScript/manageServer/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 3847
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 16:26:51,189 ERROR 4059 [-/127.0.0.1/-/12ms GET /admin/v1/video?per_page=5&page=0] nodejs.TypeError: obj.permission is not a function
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:11:22)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/zhb/TypeScript/manageServer/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 4059
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 16:39:45,017 ERROR 4376 nodejs.TypeError: Cannot read property 'ctx' of undefined
+    at permission (/Users/zhb/TypeScript/manageServer/app/api/permission.ts:26:27)
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:10:18)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+
+pid: 4376
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 16:39:45,018 ERROR 4376 nodejs.TypeError: Cannot read property 'ctx' of undefined
+    at permission (/Users/zhb/TypeScript/manageServer/app/api/permission.ts:26:27)
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:13:17)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+
+pid: 4376
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 16:42:35,157 ERROR 4494 nodejs.TypeError: Cannot read property 'ctx' of undefined
+    at permission (/Users/zhb/TypeScript/manageServer/app/controller/permission.ts:26:27)
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:10:18)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+
+pid: 4494
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 16:42:35,158 ERROR 4494 nodejs.TypeError: Cannot read property 'ctx' of undefined
+    at permission (/Users/zhb/TypeScript/manageServer/app/controller/permission.ts:26:27)
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:13:17)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+
+pid: 4494
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 16:45:53,756 ERROR 4620 nodejs.TypeError: Cannot read property 'findByToken' of undefined
+    at permission (/Users/zhb/TypeScript/manageServer/app/api/permission.ts:26:41)
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:13:17)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+
+pid: 4620
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 16:45:53,795 ERROR 4620 nodejs.CastError: Cast to string failed for value "{ _id: 5affcb84e47f1b09af690e63, worker_roler: [ 'test6' ] }" at path "roler_id" for model "Roler"
+    at new CastError (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/error/cast.js:27:11)
+    at SchemaString.cast (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schema/string.js:476:9)
+    at SchemaString.SchemaType._castForQuery (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schematype.js:1088:15)
+    at SchemaString.castForQuery (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schema/string.js:531:15)
+    at /Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schematype.js:1015:18
+    at Array.map (<anonymous>)
+    at SchemaString.handleArray (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schematype.js:1014:14)
+    at SchemaString.castForQuery (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schema/string.js:524:20)
+    at SchemaString.SchemaType.castForQueryWrapper (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schematype.js:1040:17)
+    at cast (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/cast.js:250:39)
+    at model.Query.Query.cast (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/query.js:3305:12)
+    at model.Query.Query._castConditions (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/query.js:1295:10)
+    at model.Query.Query._find (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/query.js:1310:8)
+    at /Users/zhb/TypeScript/manageServer/node_modules/kareem/index.js:250:8
+    at /Users/zhb/TypeScript/manageServer/node_modules/kareem/index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+message: 'Cast to string failed for value "{ _id: 5affcb84e47f1b09af690e63, worker_roler: [ \'test6\' ] }" at path "roler_id" for model "Roler"'
+name: 'CastError'
+stringValue: '"{ _id: 5affcb84e47f1b09af690e63, worker_roler: [ \'test6\' ] }"'
+kind: 'string'
+value: { _id: 5affcb84e47f1b09af690e63, worker_roler: [ 'test6' ] }
+path: 'roler_id'
+reason: undefined
+model: { [Function: model]
+  hooks: 
+   Kareem {
+     _pres: { findOneAndUpdate: [Array], update: [Array] },
+     _posts: {} },
+  base: 
+   Mongoose {
+     connections: [ [Object], [Object] ],
+     models: {},
+     modelSchemas: 
+      { Advertisement: [Object],
+        Advertisetype: [Object],
+        Authority: [Object],
+        Musictype: [Object],
+        Notification: [Object],
+        Oplog: [Object],
+        Roler: [Object],
+        Video: [Object],
+        Videorecommend: [Object],
+        Videotype: [Object],
+        Work: [Object],
+        Worker: [Object] },
+     options: { pluralization: true, debug: [Function] },
+     plugins: [ [Array], [Array], [Array] ] },
+  modelName: 'Roler',
+  model: [Function: model],
+  db: 
+   NativeConnection {
+     base: 
+      Mongoose {
+        connections: [Array],
+        models: {},
+        modelSchemas: [Object],
+        options: [Object],
+        plugins: [Array] },
+     collections: 
+      { advertisements: [Object],
+        advertisetypes: [Object],
+        authorities: [Object],
+        musictypes: [Object],
+        notifications: [Object],
+        oplogs: [Object],
+        rolers: [Object],
+        videos: [Object],
+        videorecommends: [Object],
+        videotypes: [Object],
+        works: [Object],
+        workers: [Object] },
+     models: 
+      { Advertisement: [Object],
+        Advertisetype: [Object],
+        Authority: [Object],
+        Musictype: [Object],
+        Notification: [Object],
+        Oplog: [Object],
+        Roler: [Circular],
+        Video: [Object],
+        Videorecommend: [Object],
+        Videotype: [Object],
+        Work: [Object],
+        Worker: [Object] },
+     config: { autoIndex: true },
+     replica: false,
+     hosts: null,
+     host: '127.0.0.1',
+     port: 27017,
+     user: undefined,
+     pass: undefined,
+     name: 'easyclub',
+     options: 
+      { db: [Object],
+        auth: {},
+        server: [Object],
+        replset: [Object],
+        mongos: undefined },
+     otherDbs: [],
+     states: 
+      { '0': 'disconnected',
+        '1': 'connected',
+        '2': 'connecting',
+        '3': 'disconnecting',
+        '4': 'unauthorized',
+        '99': 'uninitialized',
+        disconnected: 0,
+        connected: 1,
+        connecting: 2,
+        disconnecting: 3,
+        unauthorized: 4,
+        uninitialized: 99 },
+     _readyState: 1,
+     _closeCalled: false,
+     _hasOpened: true,
+     _listening: false,
+     db: 
+      Db {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        s: [Object],
+        serverConfig: [Getter],
+        bufferMaxEntries: [Getter],
+        databaseName: [Getter],
+        _listening: true },
+     Schema: 
+      { [Function: Schema]
+        reserved: [Object],
+        interpretAsType: [Function],
+        Types: [Object],
+        ObjectId: [Object] },
+     _events: 
+      { error: [Function],
+        disconnected: [Function],
+        connected: [Function],
+        reconnected: [Function] },
+     _eventsCount: 4 },
+  discriminators: undefined,
+  '$appliedMethods': true,
+  query: [Function: defaultQuery],
+  leanQuery: [Function: leanQuery],
+  delete: [Function],
+  restore: [Function],
+  findOrCreate: [Function: findOrCreate],
+  findRolerList: [Function],
+  updateRoler: [Function],
+  delRoler: [Function],
+  findAuth: [Function],
+  '$appliedHooks': true,
+  _events: { init: [Function], save: [Function] },
+  _eventsCount: 2,
+  schema: 
+   Schema {
+     obj: { roler_name: [Object], roler_id: [Object], roler_auth: [Array] },
+     paths: 
+      { roler_name: [Object],
+        roler_id: [Object],
+        roler_auth: [Object],
+        _id: [Object],
+        updatedAt: [Object],
+        createdAt: [Object],
+        deleted: [Object],
+        __v: [Object] },
+     aliases: {},
+     subpaths: {},
+     virtuals: { id: [Object] },
+     singleNestedPaths: {},
+     nested: {},
+     inherits: {},
+     callQueue: 
+      [ [Array],
+        [Array],
+        [Array],
+        [Array],
+        [Array],
+        [Array],
+        [Array],
+        [Array] ],
+     _indexes: [],
+     methods: 
+      { initializeTimestamps: [Function],
+        delete: [Function],
+        restore: [Function] },
+     statics: 
+      { query: [Function: defaultQuery],
+        leanQuery: [Function: leanQuery],
+        delete: [Function],
+        restore: [Function],
+        findOrCreate: [Function: findOrCreate],
+        findRolerList: [Function],
+        updateRoler: [Function],
+        delRoler: [Function],
+        findAuth: [Function] },
+     tree: 
+      { roler_name: [Object],
+        roler_id: [Object],
+        roler_auth: [Array],
+        _id: [Object],
+        updatedAt: [Function: Date],
+        createdAt: [Function: Date],
+        deleted: [Object],
+        __v: [Function: Number],
+        id: [Object] },
+     query: 
+      { query: [Function: defaultQuery],
+        leanQuery: [Function: leanQuery] },
+     childSchemas: [],
+     plugins: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ],
+     s: { hooks: [Object], kareemHooks: [Object] },
+     _userProvidedOptions: { timestamps: true },
+     options: 
+      { timestamps: true,
+        retainKeyOrder: false,
+        typeKey: 'type',
+        id: true,
+        noVirtualId: false,
+        _id: true,
+        noId: false,
+        validateBeforeSave: true,
+        read: null,
+        shardKey: null,
+        autoIndex: null,
+        minimize: true,
+        discriminatorKey: '__t',
+        versionKey: '__v',
+        capped: false,
+        bufferCommands: true,
+        strict: true,
+        pluralization: true },
+     '$globalPluginsApplied': true },
+  collection: 
+   NativeCollection {
+     collection: Collection { s: [Object] },
+     opts: 
+      { bufferCommands: true,
+        capped: false,
+        '$wasForceClosed': undefined },
+     name: 'rolers',
+     collectionName: 'rolers',
+     conn: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        hosts: null,
+        host: '127.0.0.1',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        name: 'easyclub',
+        options: [Object],
+        otherDbs: [],
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        _listening: false,
+        db: [Object],
+        Schema: [Object],
+        _events: [Object],
+        _eventsCount: 4 },
+     queue: [],
+     buffer: false,
+     emitter: 
+      EventEmitter {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined } },
+  Query: 
+   { [Function]
+     base: 
+      Query {
+        toConstructor: [Function: toConstructor],
+        setOptions: [Function],
+        collection: [Function: collection],
+        '$where': [Function],
+        where: [Function],
+        equals: [Function: equals],
+        eq: [Function: eq],
+        or: [Function: or],
+        nor: [Function: nor],
+        and: [Function: and],
+        gt: [Function],
+        gte: [Function],
+        lt: [Function],
+        lte: [Function],
+        ne: [Function],
+        in: [Function],
+        nin: [Function],
+        all: [Function],
+        regex: [Function],
+        size: [Function],
+        maxDistance: [Function],
+        minDistance: [Function],
+        mod: [Function],
+        exists: [Function],
+        elemMatch: [Function],
+        within: [Function: within],
+        box: [Function],
+        polygon: [Function],
+        circle: [Function],
+        near: [Function: near],
+        intersects: [Function: intersects],
+        geometry: [Function: geometry],
+        select: [Function: select],
+        slice: [Function],
+        sort: [Function],
+        limit: [Function],
+        skip: [Function],
+        maxScan: [Function],
+        batchSize: [Function],
+        comment: [Function],
+        maxTime: [Function],
+        snapshot: [Function],
+        hint: [Function],
+        slaveOk: [Function],
+        read: [Function],
+        tailable: [Function],
+        merge: [Function],
+        find: [Function],
+        cursor: [Function: cursor],
+        findOne: [Function],
+        count: [Function],
+        distinct: [Function],
+        update: [Function: update],
+        updateMany: [Function: updateMany],
+        updateOne: [Function: updateOne],
+        replaceOne: [Function: replaceOne],
+        remove: [Function],
+        deleteOne: [Function],
+        deleteMany: [Function],
+        findOneAndUpdate: [Function],
+        findOneAndRemove: [Function],
+        _findAndModify: [Function],
+        _wrapCallback: [Function],
+        setTraceFunction: [Function],
+        exec: [Function: exec],
+        thunk: [Function],
+        then: [Function],
+        stream: [Function],
+        selected: [Function: selected],
+        selectedInclusively: [Function: selectedInclusively],
+        selectedExclusively: [Function: selectedExclusively],
+        _mergeUpdate: [Function],
+        _optionsForExec: [Function],
+        _fieldsForExec: [Function],
+        _updateForExec: [Function],
+        _ensurePath: [Function],
+        _validate: [Function] } },
+  '$__insertMany': [Function],
+  insertMany: [Function],
+  '$init': Promise { [Circular] },
+  [Symbol(EGG_LOADER_ITEM_FULLPATH)]: '/Users/zhb/TypeScript/manageServer/app/model/roler.js',
+  [Symbol(EGG_LOADER_ITEM_EXPORTS)]: true }
+pid: 4620
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 16:49:18,594 ERROR 4689 [-/127.0.0.1/-/31ms GET /admin/v1/video?per_page=5&page=0] nodejs.CastError: Cast to string failed for value "{ _id: 5affcb84e47f1b09af690e63, worker_roler: [ 'test6' ] }" at path "roler_id" for model "Roler"
+    at new CastError (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/error/cast.js:27:11)
+    at SchemaString.cast (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schema/string.js:476:9)
+    at SchemaString.SchemaType._castForQuery (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schematype.js:1088:15)
+    at SchemaString.castForQuery (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schema/string.js:531:15)
+    at /Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schematype.js:1015:18
+    at Array.map (<anonymous>)
+    at SchemaString.handleArray (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schematype.js:1014:14)
+    at SchemaString.castForQuery (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schema/string.js:524:20)
+    at SchemaString.SchemaType.castForQueryWrapper (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/schematype.js:1040:17)
+    at cast (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/cast.js:250:39)
+    at model.Query.Query.cast (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/query.js:3305:12)
+    at model.Query.Query._castConditions (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/query.js:1295:10)
+    at model.Query.Query._find (/Users/zhb/TypeScript/manageServer/node_modules/mongoose/lib/query.js:1310:8)
+    at /Users/zhb/TypeScript/manageServer/node_modules/kareem/index.js:250:8
+    at /Users/zhb/TypeScript/manageServer/node_modules/kareem/index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+message: 'Cast to string failed for value "{ _id: 5affcb84e47f1b09af690e63, worker_roler: [ \'test6\' ] }" at path "roler_id" for model "Roler"'
+name: 'CastError'
+stringValue: '"{ _id: 5affcb84e47f1b09af690e63, worker_roler: [ \'test6\' ] }"'
+kind: 'string'
+value: { _id: 5affcb84e47f1b09af690e63, worker_roler: [ 'test6' ] }
+path: 'roler_id'
+reason: undefined
+model: { [Function: model]
+  hooks: 
+   Kareem {
+     _pres: { findOneAndUpdate: [Array], update: [Array] },
+     _posts: {} },
+  base: 
+   Mongoose {
+     connections: [ [Object], [Object] ],
+     models: {},
+     modelSchemas: 
+      { Advertisement: [Object],
+        Advertisetype: [Object],
+        Authority: [Object],
+        Musictype: [Object],
+        Notification: [Object],
+        Oplog: [Object],
+        Roler: [Object],
+        Video: [Object],
+        Videorecommend: [Object],
+        Videotype: [Object],
+        Work: [Object],
+        Worker: [Object] },
+     options: { pluralization: true, debug: [Function] },
+     plugins: [ [Array], [Array], [Array] ] },
+  modelName: 'Roler',
+  model: [Function: model],
+  db: 
+   NativeConnection {
+     base: 
+      Mongoose {
+        connections: [Array],
+        models: {},
+        modelSchemas: [Object],
+        options: [Object],
+        plugins: [Array] },
+     collections: 
+      { advertisements: [Object],
+        advertisetypes: [Object],
+        authorities: [Object],
+        musictypes: [Object],
+        notifications: [Object],
+        oplogs: [Object],
+        rolers: [Object],
+        videos: [Object],
+        videorecommends: [Object],
+        videotypes: [Object],
+        works: [Object],
+        workers: [Object] },
+     models: 
+      { Advertisement: [Object],
+        Advertisetype: [Object],
+        Authority: [Object],
+        Musictype: [Object],
+        Notification: [Object],
+        Oplog: [Object],
+        Roler: [Circular],
+        Video: [Object],
+        Videorecommend: [Object],
+        Videotype: [Object],
+        Work: [Object],
+        Worker: [Object] },
+     config: { autoIndex: true },
+     replica: false,
+     hosts: null,
+     host: '127.0.0.1',
+     port: 27017,
+     user: undefined,
+     pass: undefined,
+     name: 'easyclub',
+     options: 
+      { db: [Object],
+        auth: {},
+        server: [Object],
+        replset: [Object],
+        mongos: undefined },
+     otherDbs: [],
+     states: 
+      { '0': 'disconnected',
+        '1': 'connected',
+        '2': 'connecting',
+        '3': 'disconnecting',
+        '4': 'unauthorized',
+        '99': 'uninitialized',
+        disconnected: 0,
+        connected: 1,
+        connecting: 2,
+        disconnecting: 3,
+        unauthorized: 4,
+        uninitialized: 99 },
+     _readyState: 1,
+     _closeCalled: false,
+     _hasOpened: true,
+     _listening: false,
+     db: 
+      Db {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        s: [Object],
+        serverConfig: [Getter],
+        bufferMaxEntries: [Getter],
+        databaseName: [Getter],
+        _listening: true },
+     Schema: 
+      { [Function: Schema]
+        reserved: [Object],
+        interpretAsType: [Function],
+        Types: [Object],
+        ObjectId: [Object] },
+     _events: 
+      { error: [Function],
+        disconnected: [Function],
+        connected: [Function],
+        reconnected: [Function] },
+     _eventsCount: 4 },
+  discriminators: undefined,
+  '$appliedMethods': true,
+  query: [Function: defaultQuery],
+  leanQuery: [Function: leanQuery],
+  delete: [Function],
+  restore: [Function],
+  findOrCreate: [Function: findOrCreate],
+  findRolerList: [Function],
+  updateRoler: [Function],
+  delRoler: [Function],
+  findAuth: [Function],
+  '$appliedHooks': true,
+  _events: { init: [Function], save: [Function] },
+  _eventsCount: 2,
+  schema: 
+   Schema {
+     obj: { roler_name: [Object], roler_id: [Object], roler_auth: [Array] },
+     paths: 
+      { roler_name: [Object],
+        roler_id: [Object],
+        roler_auth: [Object],
+        _id: [Object],
+        updatedAt: [Object],
+        createdAt: [Object],
+        deleted: [Object],
+        __v: [Object] },
+     aliases: {},
+     subpaths: {},
+     virtuals: { id: [Object] },
+     singleNestedPaths: {},
+     nested: {},
+     inherits: {},
+     callQueue: 
+      [ [Array],
+        [Array],
+        [Array],
+        [Array],
+        [Array],
+        [Array],
+        [Array],
+        [Array] ],
+     _indexes: [],
+     methods: 
+      { initializeTimestamps: [Function],
+        delete: [Function],
+        restore: [Function] },
+     statics: 
+      { query: [Function: defaultQuery],
+        leanQuery: [Function: leanQuery],
+        delete: [Function],
+        restore: [Function],
+        findOrCreate: [Function: findOrCreate],
+        findRolerList: [Function],
+        updateRoler: [Function],
+        delRoler: [Function],
+        findAuth: [Function] },
+     tree: 
+      { roler_name: [Object],
+        roler_id: [Object],
+        roler_auth: [Array],
+        _id: [Object],
+        updatedAt: [Function: Date],
+        createdAt: [Function: Date],
+        deleted: [Object],
+        __v: [Function: Number],
+        id: [Object] },
+     query: 
+      { query: [Function: defaultQuery],
+        leanQuery: [Function: leanQuery] },
+     childSchemas: [],
+     plugins: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ],
+     s: { hooks: [Object], kareemHooks: [Object] },
+     _userProvidedOptions: { timestamps: true },
+     options: 
+      { timestamps: true,
+        retainKeyOrder: false,
+        typeKey: 'type',
+        id: true,
+        noVirtualId: false,
+        _id: true,
+        noId: false,
+        validateBeforeSave: true,
+        read: null,
+        shardKey: null,
+        autoIndex: null,
+        minimize: true,
+        discriminatorKey: '__t',
+        versionKey: '__v',
+        capped: false,
+        bufferCommands: true,
+        strict: true,
+        pluralization: true },
+     '$globalPluginsApplied': true },
+  collection: 
+   NativeCollection {
+     collection: Collection { s: [Object] },
+     opts: 
+      { bufferCommands: true,
+        capped: false,
+        '$wasForceClosed': undefined },
+     name: 'rolers',
+     collectionName: 'rolers',
+     conn: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        hosts: null,
+        host: '127.0.0.1',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        name: 'easyclub',
+        options: [Object],
+        otherDbs: [],
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        _listening: false,
+        db: [Object],
+        Schema: [Object],
+        _events: [Object],
+        _eventsCount: 4 },
+     queue: [],
+     buffer: false,
+     emitter: 
+      EventEmitter {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined } },
+  Query: 
+   { [Function]
+     base: 
+      Query {
+        toConstructor: [Function: toConstructor],
+        setOptions: [Function],
+        collection: [Function: collection],
+        '$where': [Function],
+        where: [Function],
+        equals: [Function: equals],
+        eq: [Function: eq],
+        or: [Function: or],
+        nor: [Function: nor],
+        and: [Function: and],
+        gt: [Function],
+        gte: [Function],
+        lt: [Function],
+        lte: [Function],
+        ne: [Function],
+        in: [Function],
+        nin: [Function],
+        all: [Function],
+        regex: [Function],
+        size: [Function],
+        maxDistance: [Function],
+        minDistance: [Function],
+        mod: [Function],
+        exists: [Function],
+        elemMatch: [Function],
+        within: [Function: within],
+        box: [Function],
+        polygon: [Function],
+        circle: [Function],
+        near: [Function: near],
+        intersects: [Function: intersects],
+        geometry: [Function: geometry],
+        select: [Function: select],
+        slice: [Function],
+        sort: [Function],
+        limit: [Function],
+        skip: [Function],
+        maxScan: [Function],
+        batchSize: [Function],
+        comment: [Function],
+        maxTime: [Function],
+        snapshot: [Function],
+        hint: [Function],
+        slaveOk: [Function],
+        read: [Function],
+        tailable: [Function],
+        merge: [Function],
+        find: [Function],
+        cursor: [Function: cursor],
+        findOne: [Function],
+        count: [Function],
+        distinct: [Function],
+        update: [Function: update],
+        updateMany: [Function: updateMany],
+        updateOne: [Function: updateOne],
+        replaceOne: [Function: replaceOne],
+        remove: [Function],
+        deleteOne: [Function],
+        deleteMany: [Function],
+        findOneAndUpdate: [Function],
+        findOneAndRemove: [Function],
+        _findAndModify: [Function],
+        _wrapCallback: [Function],
+        setTraceFunction: [Function],
+        exec: [Function: exec],
+        thunk: [Function],
+        then: [Function],
+        stream: [Function],
+        selected: [Function: selected],
+        selectedInclusively: [Function: selectedInclusively],
+        selectedExclusively: [Function: selectedExclusively],
+        _mergeUpdate: [Function],
+        _optionsForExec: [Function],
+        _fieldsForExec: [Function],
+        _updateForExec: [Function],
+        _ensurePath: [Function],
+        _validate: [Function] } },
+  '$__insertMany': [Function],
+  insertMany: [Function],
+  '$init': Promise { [Circular] },
+  [Symbol(EGG_LOADER_ITEM_FULLPATH)]: '/Users/zhb/TypeScript/manageServer/app/model/roler.js',
+  [Symbol(EGG_LOADER_ITEM_EXPORTS)]: true }
+pid: 4689
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 16:53:44,633 ERROR 4833 [-/127.0.0.1/-/27ms GET /admin/v1/video?per_page=5&page=0] nodejs.TypeError: infos is not iterable
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:13:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 4833
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 16:59:47,042 ERROR 5101 [-/127.0.0.1/-/41ms GET /admin/v1/video?per_page=5&page=0] nodejs.TypeError: auths.indexOf is not a function
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:17:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 5101
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 17:09:31,806 ERROR 5358 [-/127.0.0.1/-/12ms GET /admin/v1/video?per_page=5&page=0] nodejs.SyntaxError: Identifier 'code' has already been declared
+    at videoController.index (/Users/zhb/TypeScript/manageServer/app/controller/video.ts:8:25)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/manageServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/manageServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/manageServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/manageServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/manageServer/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/zhb/TypeScript/manageServer/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 5358
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-19 17:30:44,842 ERROR 5883 [-/127.0.0.1/-/26ms PUT /admin/v1/video/5ad04542650a6308e5833b3b] nodejs.TypeError: Cannot read property 'worker_roler' of null
+    at videoController.isAllow (/Users/zhb/TypeScript/manageServer/app/controller/basecontroller.ts:64:52)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 5883
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-22 11:47:48,337 ERROR 3446 [-/127.0.0.1/-/44ms POST /admin/v1/setadvertise] nodejs.TypeError: Cannot read property 'worker_roler' of null
+    at SetAdvertiseController.isAllow (/Users/zhb/TypeScript/manageServer/app/controller/basecontroller.ts:64:52)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3446
+hostname: zhbdeMacBook-Pro.local
+

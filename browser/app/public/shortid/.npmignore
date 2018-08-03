@@ -1,0 +1,9 @@
+/templates/
+/examples/
+/test/
+/.idea/
+/browser/
+.jshintrc
+.travis.yml
+.npmignore
+Gruntfile.js

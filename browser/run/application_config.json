@@ -1,0 +1,730 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "store": {
+        "get": "<Function createPromise>",
+        "set": "<Function createPromise>",
+        "destroy": "<Function createPromise>"
+      },
+      "overwrite": true,
+      "signed": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function anonymous>"
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "useSession": false,
+        "ignoreJSON": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      }
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null
+    },
+    "i18n": {
+      "defaultLocale": "zh-CN",
+      "dirs": [
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-session/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-jsonp/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-onerror/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-i18n/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-watcher/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-multipart/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-development/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-schedule/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-logrotator/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-static/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-view/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-view-nunjucks/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-mongoose/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-mongoose-logger/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-redis/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-session-redis/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-keyv/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-jwt/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg-joi/config/locales",
+        "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/locales",
+        "/Users/zhb/TypeScript/browserServer/config/locale"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/zhb/TypeScript/browserServer/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/zhb/TypeScript/browserServer/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "multipart": {
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "/Users/zhb/TypeScript/browserServer/logs/shopping-server/egg-schedule.log"
+      }
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/zhb/TypeScript/browserServer/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000,
+      "files": "<LRU>"
+    },
+    "view": {
+      "root": [
+        "/Users/zhb/TypeScript/browserServer/app/view"
+      ],
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".tpl": "nunjucks"
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
+    },
+    "mongoose": {
+      "url": "mongodb://127.0.0.1:27017/eosmain",
+      "options": {}
+    },
+    "mongooseLogger": {
+      "debug": true,
+      "formatter": "<Function formatter>"
+    },
+    "redis": {
+      "default": {},
+      "app": true,
+      "agent": false,
+      "clients": {
+        "session": {
+          "port": 6379,
+          "host": "127.0.0.1",
+          "password": "<String len: 0>",
+          "db": 0
+        }
+      }
+    },
+    "sessionRedis": {
+      "name": "session"
+    },
+    "keyv": {
+      "default": {
+        "url": ""
+      },
+      "app": true,
+      "agent": false,
+      "clients": {
+        "instance": {
+          "port": 6379,
+          "host": "127.0.0.1",
+          "password": "<String len: 0>",
+          "db": 0,
+          "namespace": "keyv",
+          "adapter": "redis"
+        },
+        "user": {
+          "port": 6379,
+          "host": "127.0.0.1",
+          "password": "<String len: 0>",
+          "db": 1,
+          "namespace": "users",
+          "adapter": "redis"
+        }
+      }
+    },
+    "jwt": {
+      "secret": "<String len: 32>",
+      "enable": false,
+      "match": "/shop",
+      "key": "user"
+    },
+    "joi": {
+      "options": {},
+      "locale": {
+        "zh-cn": {}
+      },
+      "throw": true,
+      "enable": true
+    },
+    "env": "local",
+    "name": "shopping-server",
+    "keys": "<String len: 34>",
+    "proxy": false,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "x-forwarded-host",
+    "pkg": {
+      "name": "shopping-server",
+      "version": "0.0.1",
+      "description": "fenglikeji shopping management backstage",
+      "private": true,
+      "dependencies": {
+        "@alicloud/sms-sdk": "^1.0.8",
+        "axios": "^0.18.0",
+        "binaryen": "^44.0.0",
+        "bluebird": "^3.5.1",
+        "co-redis": "^2.1.1",
+        "config": "^1.30.0",
+        "crypto": "^1.0.1",
+        "crypto-js": "^3.1.9-1",
+        "csurf": "^1.9.0",
+        "egg": "^2.0.0",
+        "egg-cors": "^2.0.0",
+        "egg-i18n": "^2.0.0",
+        "egg-joi": "^1.0.3",
+        "egg-jwt": "^2.2.1",
+        "egg-keyv": "^1.0.4",
+        "egg-mongo-native": "^3.0.0",
+        "egg-mongoose": "^2.1.1",
+        "egg-mongoose-logger": "^1.0.6",
+        "egg-passport": "^2.0.1",
+        "egg-passport-github": "^1.0.0",
+        "egg-redis": "^2.0.0",
+        "egg-session-redis": "^1.0.0",
+        "egg-socket.io": "^4.0.8",
+        "egg-static": "^2.1.0",
+        "egg-view-nunjucks": "^2.1.6",
+        "eosjs": "^6.1.9",
+        "fluent-ffmpeg": "^2.1.2",
+        "fnv-plus": "^1.2.12",
+        "fs": "0.0.1-security",
+        "hashmap": "^2.3.0",
+        "ipfs-api": "^18.1.1",
+        "js-base64": "^2.4.3",
+        "keen-tracking": "^1.4.0",
+        "koa-ratelimit": "^4.0.0",
+        "moment": "^2.19.4",
+        "mongoose-delete": "^0.4.0",
+        "mongoose-findorcreate": "^3.0.0",
+        "mongoose-query": "^0.5.1",
+        "mongoose-unique-validator": "^2.0.0",
+        "node-schedule": "^1.3.0",
+        "raven": "^2.4.2",
+        "request": "^2.83.0",
+        "rongcloud-sdk": "^3.0.0",
+        "scanf": "^1.0.0",
+        "source-map-support": "^0.5.0",
+        "svg-captcha": "^1.3.11",
+        "tslib": "^1.8.1",
+        "typescript": "^2.6.2"
+      },
+      "devDependencies": {
+        "@types/cheerio": "^0.22.1",
+        "@types/mocha": "^2.2.40",
+        "@types/node": "^7.0.12",
+        "@types/supertest": "^2.0.0",
+        "autod": "^3.0.1",
+        "autod-egg": "^1.1.0",
+        "cheerio": "^1.0.0-rc.2",
+        "egg-bin": "^4.3.7",
+        "egg-mock": "^3.14.0",
+        "rimraf": "^2.6.1",
+        "tslint": "^4.0.0"
+      },
+      "engines": {
+        "node": ">=8.9.0"
+      },
+      "scripts": {
+        "clean": "rimraf app/**/*.{js,map} test/**/*.{js,map} config/**/*.{js,map}",
+        "tsc": "tsc -p tsconfig.json",
+        "tsc:w": "tsc -p tsconfig.json -w",
+        "debug": "egg-bin debug",
+        "dev": "egg-bin dev",
+        "test": "npm run tsc && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "tslint .",
+        "ci": "npm run lint && npm run cov",
+        "autod": "autod"
+      }
+    },
+    "baseDir": "/Users/zhb/TypeScript/browserServer",
+    "HOME": "/Users/zhb",
+    "rundir": "/Users/zhb/TypeScript/browserServer/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 3113>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "100kb",
+      "jsonLimit": "100kb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/zhb/TypeScript/browserServer/logs/shopping-server",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "shopping-server-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": true,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheMaxLength": 1000,
+      "dnsCacheMaxAge": 10000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "jwt",
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n"
+    ],
+    "workerStartTimeout": 600000,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "responseTimeout": 60000
+    },
+    "news": {
+      "pageSize": 30,
+      "serverUrl": "https://hacker-news.firebaseio.com/v0"
+    },
+    "passportGithub": {
+      "key": "imTubeKey",
+      "secret": "<String len: 12>"
+    },
+    "cors": {
+      "origin": "*",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
+    },
+    "YFCLOUD": {
+      "dnsname": "flimg.oss.yfcloud.io",
+      "accesskey": "7U__VuXwvT1Ht01ZGjXk9WbyCyldScxx2sad4uiY_Jo=",
+      "secrect": "wwd0N4tW5d6sW0BX4aH4oFqwCPcgx07bJj_36BHDG6U=",
+      "roomid": "flimg"
+    },
+    "middleware": [
+      "saveSession"
+    ],
+    "coreMiddlewares": [
+      "jwt",
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n"
+    ],
+    "appMiddlewares": [
+      "saveSession"
+    ],
+    "appMiddleware": [
+      "saveSession"
+    ],
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security",
+      "version": "2.0.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-onerror",
+      "version": "2.0.0"
+    },
+    "i18n": {
+      "enable": true,
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/config/plugin.js",
+      "package": "egg-i18n",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-i18n",
+      "version": "2.0.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-watcher",
+      "version": "3.0.0"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-multipart",
+      "version": "2.0.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-development",
+      "version": "2.2.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-schedule",
+      "version": "3.3.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-logrotator",
+      "version": "3.0.2"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-static",
+      "version": "2.1.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-view",
+      "version": "2.1.0"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-view-nunjucks",
+      "version": "2.1.6"
+    },
+    "mongoose": {
+      "enable": true,
+      "package": "egg-mongoose",
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-mongoose",
+      "version": "2.1.1"
+    },
+    "mongooseLogger": {
+      "enable": true,
+      "package": "egg-mongoose-logger",
+      "name": "mongooseLogger",
+      "dependencies": [],
+      "optionalDependencies": [
+        "egg-mongoose"
+      ],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-mongoose-logger",
+      "version": "1.0.6"
+    },
+    "redis": {
+      "enable": true,
+      "package": "egg-redis",
+      "name": "redis",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-redis",
+      "version": "2.0.0"
+    },
+    "sessionRedis": {
+      "enable": true,
+      "package": "egg-session-redis",
+      "name": "sessionRedis",
+      "dependencies": [
+        "redis"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-session-redis",
+      "version": "1.0.0"
+    },
+    "keyv": {
+      "enable": true,
+      "package": "egg-keyv",
+      "name": "keyv",
+      "dependencies": [
+        "redis"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-keyv",
+      "version": "1.0.4"
+    },
+    "jwt": {
+      "enable": true,
+      "package": "egg-jwt",
+      "name": "jwt",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-jwt",
+      "version": "2.2.1"
+    },
+    "joi": {
+      "enable": true,
+      "package": "egg-joi",
+      "name": "joi",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhb/TypeScript/browserServer/config/plugin.js",
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg-joi",
+      "version": "1.0.3"
+    }
+  }
+}
