@@ -1,5 +1,0 @@
-*.rdb
-build/
-app/my-release-key.keystore
-app/build.gradle
-.gradle/
