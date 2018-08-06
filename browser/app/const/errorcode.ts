@@ -1,0 +1,33 @@
+export default{
+    common:{
+        jwtutil:{
+            token_outdate:'000101',///token过期
+            token_invalid:'000102'//token无效
+        },
+        reqinfo:{
+           mulreq:'000201'///重复提交
+        },
+        alarm:{
+            info:'10000'///系统异常,异常信息提交后台
+        },
+        errinfo:{
+            info:'000301'///系统异常信息返回
+        }
+    },
+    block:{
+        index:'010001',
+        show:'010002'
+    },
+    transaction:{
+        index:'020001',
+        show:'020002'
+    },
+    account:{
+        show:'030001'
+    },
+    action:{
+        index:'040001',
+        show:'040002'
+    }
+
+}

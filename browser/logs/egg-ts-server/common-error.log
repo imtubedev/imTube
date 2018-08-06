@@ -1,0 +1,1838 @@
+2018-04-19 15:11:13,968 ERROR 1964 [egg-mongoose] mongodb://127.0.0.1:27017/easyclub disconnected
+2018-04-19 15:11:13,975 ERROR 1964 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+    at emitOne (events.js:116:13)
+    at Pool.emit (events.js:211:7)
+    at Connection.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at Connection.emit (events.js:214:7)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 1964
+hostname: zhbdeMacBook-Pro.local
+
+2018-04-24 16:41:50,735 ERROR 2256 [-/127.0.0.1/-/32ms POST /v1/sgin] nodejs.TypeError: Cannot read property 'imtid' of undefined
+    at UserService.sginin (/Users/zhb/TypeScript/imTserver/app/service/user.ts:29:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2256
+hostname: zhbdeMacBook-Pro.local
+
+2018-04-24 16:44:21,746 ERROR 2277 [-/127.0.0.1/-/31ms POST /v1/sgin] nodejs.TypeError: Cannot read property 'imtid' of undefined
+    at UserService.sginin (/Users/zhb/TypeScript/imTserver/app/service/user.ts:29:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2277
+hostname: zhbdeMacBook-Pro.local
+
+2018-04-28 16:31:55,311 ERROR 1626 [egg-mongoose] mongodb://127.0.0.1:27017/easyclub disconnected
+2018-04-28 16:31:55,316 ERROR 1626 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+    at emitOne (events.js:116:13)
+    at Pool.emit (events.js:211:7)
+    at Connection.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at Connection.emit (events.js:214:7)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 1626
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-02 16:05:35,516 ERROR 1420 [egg-mongoose] mongodb://127.0.0.1:27017/easyclub disconnected
+2018-05-02 16:05:35,522 ERROR 1420 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+    at emitOne (events.js:116:13)
+    at Pool.emit (events.js:211:7)
+    at Connection.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at Connection.emit (events.js:214:7)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 1420
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 11:02:43,387 ERROR 1473 [-/127.0.0.1/-/17ms POST /im/v1/video/video/addThumb] nodejs.TypeError: this.run is not a function
+    at Object.<anonymous> (/Users/zhb/TypeScript/imTserver/app/router.ts:66:10)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/zhb/TypeScript/imTserver/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+
+pid: 1473
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 11:21:42,175 ERROR 1619 [-/127.0.0.1/-/20ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:64:69)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 1619
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 11:23:29,560 ERROR 1650 [-/127.0.0.1/-/18ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:64:69)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 1650
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 11:25:36,675 ERROR 1688 [-/127.0.0.1/-/18ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:64:62)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 1688
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 11:40:29,072 ERROR 1804 [-/127.0.0.1/-/20ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:64:62)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 1804
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 12:06:52,930 ERROR 1988 [-/127.0.0.1/-/19ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:64:62)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 1988
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 12:27:14,695 ERROR 1987 nodejs.ClusterClientNoResponseError: client no response in 485087ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/imTserver/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 1987
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 12:36:27,171 ERROR 2068 [-/127.0.0.1/-/20ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:65:71)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 2068
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 12:48:47,847 ERROR 2097 [-/127.0.0.1/-/19ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:66:71)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 2097
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 12:50:57,371 ERROR 2125 [-/127.0.0.1/-/25ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:66:71)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 2125
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 12:58:12,524 ERROR 2157 [-/127.0.0.1/-/20ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:66:71)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 2157
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 13:01:29,981 ERROR 2175 [-/127.0.0.1/-/18ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:66:71)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 2175
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 13:07:55,222 ERROR 2309 [-/127.0.0.1/-/19ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:66:71)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 2309
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 13:37:51,335 ERROR 2446 [-/127.0.0.1/-/19ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:65:85)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 2446
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 13:38:59,151 ERROR 2454 [-/127.0.0.1/-/21ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/Users/zhb/TypeScript/imTserver/node_modules/egg/lib/core/base_context_class.js:13:1)
+    at new VideoController (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:9:1)
+    at Object.classControllerMiddleware [as addThumb] (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:80:26)
+    at Object.router.post (/Users/zhb/TypeScript/imTserver/app/router.ts:65:85)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+
+pid: 2454
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 14:04:27,684 ERROR 2512 [-/127.0.0.1/-/33ms POST /im/v1/video/video/addThumb] nodejs.TypeError: Cannot read property 'getEncourage' of undefined
+    at ThumbService.addThumb (/Users/zhb/TypeScript/imTserver/app/service/thumb.ts:38:57)
+    at VideoController.addThumb (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:185:53)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+
+pid: 2512
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-03 14:41:15,283 ERROR 2590 [-/192.168.31.244/-/19ms POST /im/v1/pushComment] nodejs.TypeError: Cannot read property 'hasKeyword' of undefined
+    at ThumbService.pushVideoComment (/Users/zhb/TypeScript/imTserver/app/service/thumb.ts:75:26)
+    at VideoController.pushVideoComment (/Users/zhb/TypeScript/imTserver/app/controller/video/video.ts:202:53)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+
+pid: 2590
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-07 10:29:28,411 ERROR 936 [egg-mongoose] mongodb://127.0.0.1:27017/easyclub disconnected
+2018-05-07 10:29:28,416 ERROR 936 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+    at emitOne (events.js:116:13)
+    at Pool.emit (events.js:211:7)
+    at Connection.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at Connection.emit (events.js:214:7)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 936
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-08 11:27:09,473 ERROR 2333 [egg-mongoose] mongodb://127.0.0.1:27017/easyclub disconnected
+2018-05-08 11:27:09,477 ERROR 2333 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+    at emitOne (events.js:116:13)
+    at Pool.emit (events.js:211:7)
+    at Connection.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at Connection.emit (events.js:214:7)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 2333
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-08 18:05:16,743 ERROR 5545 [-/127.0.0.1/-/45ms POST /v1/user/userSgin/registerin] nodejs.TypeError: Cannot read property 'imtid' of undefined
+    at UserService.sginin (/Users/zhb/TypeScript/imTserver/app/service/user.ts:30:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 5545
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-08 19:07:51,885 ERROR 6783 [-/127.0.0.1/-/63ms POST /v1/user/userSgin/registerin] nodejs.TypeError: Cannot read property 'imtid' of undefined
+    at UserService.sginin (/Users/zhb/TypeScript/imTserver/app/service/user.ts:32:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 6783
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-09 10:33:06,298 ERROR 1114 [-/127.0.0.1/-/31ms POST /im/v1/userInfo/basicinfo/getAttention] nodejs.TypeError: Cannot read property 'attention' of undefined
+    at UserInfoController.getAttention (/Users/zhb/TypeScript/imTserver/app/controller/userInfo/basicinfo.ts:98:51)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/zhb/TypeScript/imTserver/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 1114
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-09 10:36:22,305 ERROR 1195 [-/127.0.0.1/-/25ms POST /im/v1/userInfo/basicinfo/getAttention] nodejs.TypeError: Cannot read property 'getAttention' of undefined
+    at UserInfoController.getAttention (/Users/zhb/TypeScript/imTserver/app/controller/userInfo/basicinfo.ts:98:51)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/imTserver/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/imTserver/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/imTserver/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/imTserver/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/imTserver/node_modules/koa-compose/index.js:43:18)
+    at dta (/Users/zhb/TypeScript/imTserver/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 1195
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-10 18:14:35,747 ERROR 2072 [egg-mongoose] mongodb://127.0.0.1:27017/easyclub disconnected
+2018-05-10 18:14:35,751 ERROR 2072 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+    at emitOne (events.js:116:13)
+    at Pool.emit (events.js:211:7)
+    at Connection.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at Connection.emit (events.js:214:7)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 2072
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:51:37,953 ERROR 1485 [egg-mongoose] mongodb://127.0.0.1:27017/easyclub disconnected
+2018-05-14 11:51:37,958 ERROR 1485 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/topologies/server.js:336:35)
+    at emitOne (events.js:116:13)
+    at Pool.emit (events.js:211:7)
+    at Connection.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+    at Object.onceWrapper (events.js:317:30)
+    at emitTwo (events.js:126:13)
+    at Connection.emit (events.js:214:7)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:189:49)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 1485
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:52:23,076 ERROR 1555 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1555
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:52:23,077 ERROR 1555 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1555
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:52:25,643 ERROR 1556 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1556
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:52:25,644 ERROR 1556 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1556
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:53:29,885 ERROR 1572 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1572
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:53:29,886 ERROR 1572 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1572
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:53:39,956 ERROR 1590 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1590
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:53:39,957 ERROR 1590 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1590
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:53:42,341 ERROR 1598 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1598
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:53:42,342 ERROR 1598 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1598
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:54:02,022 ERROR 1607 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1607
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:54:02,023 ERROR 1607 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1607
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:54:04,817 ERROR 1616 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1616
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:54:04,818 ERROR 1616 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1616
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:54:07,076 ERROR 1618 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1618
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:54:07,077 ERROR 1618 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1618
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:54:09,012 ERROR 1619 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1619
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:54:09,013 ERROR 1619 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1619
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:54:15,159 ERROR 1637 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1637
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:54:15,160 ERROR 1637 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1637
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:54:17,476 ERROR 1638 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1638
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:54:17,477 ERROR 1638 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1638
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:07,872 ERROR 1704 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1704
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:07,873 ERROR 1704 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1704
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:10,280 ERROR 1705 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1705
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:10,281 ERROR 1705 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1705
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:31,642 ERROR 1721 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1721
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:31,643 ERROR 1721 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1721
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:35,886 ERROR 1731 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1731
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:35,887 ERROR 1731 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1731
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:38,480 ERROR 1740 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1740
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:38,482 ERROR 1740 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1740
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:41,906 ERROR 1743 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1743
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:41,907 ERROR 1743 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1743
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:43,518 ERROR 1754 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1754
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:43,520 ERROR 1754 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1754
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:47,698 ERROR 1756 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1756
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:47,705 ERROR 1756 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1756
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:51,561 ERROR 1768 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1768
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 11:55:51,562 ERROR 1768 nodejs.MongoError: E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.videos index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 1768
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:37:40,959 ERROR 2092 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 2092
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:37:43,291 ERROR 2093 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 2093
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:39:49,880 ERROR 2132 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 2132
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:39:52,872 ERROR 2133 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 2133
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:40:47,753 ERROR 2150 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 2150
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:40:49,746 ERROR 2151 nodejs.MongoError: E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }
+    at Function.MongoError.create (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at /Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:497:72
+    at authenticateStragglers (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:443:16)
+    at Connection.messageHandler (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:477:5)
+    at Socket.<anonymous> (/Users/zhb/TypeScript/imTserver/node_modules/mongoose/node_modules/mongodb-core/lib/connection/connection.js:333:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+ok: 0
+errmsg: 'E11000 duplicate key error collection: easyclub.wealthsources index: tsn_1 dup key: { : null }'
+code: 11000
+codeName: 'DuplicateKey'
+pid: 2151
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:41:49,363 ERROR 2188 [-/127.0.0.1/-/77ms POST /v1/user/userSgin/registerin] nodejs.TypeError: Cannot read property 'imtid' of undefined
+    at UserService.sginin (/Users/zhb/TypeScript/imTserver/app/service/user.ts:41:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2188
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:51:01,342 ERROR 2287 [-/127.0.0.1/-/15ms POST /v1/user/userSgin/registerin] nodejs.TypeError: Cannot read property 'imtid' of undefined
+    at UserService.sginin (/Users/zhb/TypeScript/imTserver/app/service/user.ts:41:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2287
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:51:01,394 ERROR 2287 nodejs.TypeError: Cannot read property 'imtid' of null
+    at UserService.updateUserInvite (/Users/zhb/TypeScript/imTserver/app/service/user.ts:206:28)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2287
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:53:29,287 ERROR 2333 [-/127.0.0.1/-/70ms POST /v1/user/userSgin/registerin] nodejs.TypeError: Cannot read property 'imtid' of undefined
+    at UserService.sginin (/Users/zhb/TypeScript/imTserver/app/service/user.ts:41:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2333
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:53:29,330 ERROR 2333 nodejs.TypeError: Cannot read property 'imtid' of null
+    at UserService.updateUserInvite (/Users/zhb/TypeScript/imTserver/app/service/user.ts:206:28)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2333
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:56:11,963 ERROR 2397 [-/127.0.0.1/-/76ms POST /v1/user/userSgin/registerin] nodejs.TypeError: Cannot read property 'imtid' of undefined
+    at UserService.sginin (/Users/zhb/TypeScript/imTserver/app/service/user.ts:43:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2397
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:56:12,018 ERROR 2397 nodejs.TypeError: Cannot read property 'imtid' of null
+    at UserService.updateUserInvite (/Users/zhb/TypeScript/imTserver/app/service/user.ts:208:28)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2397
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:57:52,042 ERROR 2486 [-/127.0.0.1/-/69ms POST /v1/user/userSgin/registerin] nodejs.TypeError: Cannot read property 'imtid' of undefined
+    at UserService.sginin (/Users/zhb/TypeScript/imTserver/app/service/user.ts:43:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2486
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:57:52,083 ERROR 2486 nodejs.TypeError: Cannot read property 'imtid' of null
+    at UserService.updateUserInvite (/Users/zhb/TypeScript/imTserver/app/service/user.ts:208:28)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2486
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:59:25,212 ERROR 2617 [-/127.0.0.1/-/73ms POST /v1/user/userSgin/registerin] nodejs.TypeError: Cannot read property 'imtid' of undefined
+    at UserService.sginin (/Users/zhb/TypeScript/imTserver/app/service/user.ts:43:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2617
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 13:59:25,324 ERROR 2617 nodejs.TypeError: Cannot read property 'imtid' of null
+    at UserService.updateUserInvite (/Users/zhb/TypeScript/imTserver/app/service/user.ts:208:28)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2617
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 14:18:12,115 ERROR 3108 [-/127.0.0.1/-/71ms POST /v1/user/userSgin/registerin] nodejs.TypeError: Cannot read property 'imtid' of undefined
+    at UserService.sginin (/Users/zhb/TypeScript/imTserver/app/service/user.ts:47:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3108
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 14:18:12,151 ERROR 3108 nodejs.TypeError: Cannot read property 'imtid' of null
+    at UserService.updateUserInvite (/Users/zhb/TypeScript/imTserver/app/service/user.ts:212:28)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3108
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 14:21:16,990 ERROR 3239 [-/127.0.0.1/-/71ms POST /v1/user/userSgin/registerin] nodejs.TypeError: Cannot read property 'imtid' of undefined
+    at UserService.sginin (/Users/zhb/TypeScript/imTserver/app/service/user.ts:49:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3239
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 14:21:17,030 ERROR 3239 nodejs.TypeError: Cannot read property 'imtid' of null
+    at UserService.updateUserInvite (/Users/zhb/TypeScript/imTserver/app/service/user.ts:214:28)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3239
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 14:23:24,331 ERROR 3341 nodejs.TypeError: Cannot read property 'imtid' of null
+    at UserService.updateUserInvite (/Users/zhb/TypeScript/imTserver/app/service/user.ts:215:28)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3341
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-14 15:24:52,441 ERROR 3398 nodejs.ClusterClientNoResponseError: client no response in 1506151ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/imTserver/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 3398
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-15 14:59:59,350 ERROR 3267 [-/127.0.0.1/-/103ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 12:22:46,730 ERROR 1122 nodejs.ClusterClientNoResponseError: client no response in 1010486ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/imTserver/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 1122
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-16 12:24:02,834 ERROR 1169 [-/127.0.0.1/-/71ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 12:25:04,673 ERROR 1169 [-/127.0.0.1/-/46ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 12:26:30,133 ERROR 1169 [-/127.0.0.1/-/14ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 12:27:45,880 ERROR 1169 [-/127.0.0.1/-/13ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 12:30:41,972 ERROR 1169 [-/127.0.0.1/-/12ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 12:31:26,229 ERROR 1169 [-/127.0.0.1/-/16ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 12:42:17,706 ERROR 1168 nodejs.ClusterClientNoResponseError: client no response in 461789ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/imTserver/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 1168
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-16 13:08:23,680 ERROR 1168 nodejs.ClusterClientNoResponseError: client no response in 924216ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/imTserver/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 1168
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-16 14:53:29,034 ERROR 1638 [-/127.0.0.1/-/73ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 14:56:44,294 ERROR 1676 [-/127.0.0.1/-/70ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 14:58:19,347 ERROR 1741 [-/127.0.0.1/-/67ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 15:01:00,812 ERROR 1787 [-/127.0.0.1/-/71ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 15:02:04,271 ERROR 1835 [-/127.0.0.1/-/66ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 15:17:54,009 ERROR 2052 [-/127.0.0.1/-/70ms POST /v1/user/userSgin/registerin] ERROR:更新用户财富来源失败.{}
+2018-05-16 15:58:59,374 ERROR 3334 [-/127.0.0.1/-/41ms POST /v1/user/userSgin/registerin] ERROR:用户创建.{}
+2018-05-16 15:59:08,443 ERROR 3334 [-/127.0.0.1/-/3ms POST /v1/user/userSgin/registerin] ERROR:用户创建.{}
+2018-05-16 15:59:27,303 ERROR 3334 [-/127.0.0.1/-/2ms POST /v1/user/userSgin/registerin] ERROR:用户创建.{}
+2018-05-16 16:00:32,379 ERROR 3334 [-/127.0.0.1/-/2ms POST /v1/user/userSgin/registerin] ERROR:用户创建.{}
+2018-05-16 16:01:34,162 ERROR 3399 [-/127.0.0.1/-/25ms POST /v1/user/userSgin/registerin] ERROR:用户创建.{}
+2018-05-16 16:01:34,180 ERROR 3399 [-/127.0.0.1/-/26ms POST /v1/user/userSgin/registerin] nodejs.TypeError: this.ctx.__ is not a function
+    at UserService.create (/Users/zhb/TypeScript/imTserver/app/service/user.ts:46:75)
+    at <anonymous>
+
+pid: 3399
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-16 18:20:49,373 ERROR 4807 nodejs.ClusterClientNoResponseError: client no response in 95594ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/imTserver/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 4807
+hostname: zhbdeMacBook-Pro.local
+

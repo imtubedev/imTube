@@ -1,0 +1,847 @@
+2018-05-24 14:13:32,947 ERROR 4116 [-/127.0.0.1/-/22ms POST /shop/v1/goods] nodejs.TypeError: Cannot read property 'findByToken' of undefined
+    at GoodsController.isAllow (/Users/zhb/TypeScript/shoppingServer/app/controller/basecontroller.ts:63:38)
+    at GoodsController.create (/Users/zhb/TypeScript/shoppingServer/app/controller/goods.ts:29:31)
+    at Object.callFn (/Users/zhb/TypeScript/shoppingServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/shoppingServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/shoppingServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/shoppingServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/shoppingServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/shoppingServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:43:18)
+
+pid: 4116
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-24 14:21:39,164 ERROR 4273 [-/127.0.0.1/-/18ms POST /shop/v1/goods] nodejs.TypeError: Cannot read property 'findByToken' of undefined
+    at GoodsController.isAllow (/Users/zhb/TypeScript/shoppingServer/app/controller/basecontroller.ts:63:38)
+    at GoodsController.create (/Users/zhb/TypeScript/shoppingServer/app/controller/goods.ts:29:31)
+    at Object.callFn (/Users/zhb/TypeScript/shoppingServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zhb/TypeScript/shoppingServer/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zhb/TypeScript/shoppingServer/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/zhb/TypeScript/shoppingServer/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:43:18)
+    at saveSession (/Users/zhb/TypeScript/shoppingServer/app/middleware/saveSession.ts:3:15)
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:43:18)
+    at i18n (/Users/zhb/TypeScript/shoppingServer/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zhb/TypeScript/shoppingServer/node_modules/koa-compose/index.js:43:18)
+
+pid: 4273
+hostname: zhbdeMacBook-Pro.local
+
+2018-05-24 14:46:34,343 ERROR 5025 [-/127.0.0.1/-/14ms GET /shop/v1/goods?per_page=5&page=2] nodejs.TypeError: Cannot read property 'worker_roler' of null
+    at GoodsController.isAllow (/Users/zhb/TypeScript/shoppingServer/app/controller/basecontroller.ts:64:52)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 5025
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-07 15:51:40,429 ERROR 4382 nodejs.MongoError: not master and slaveOk=false
+    at Function.MongoError.create (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: 'not master and slaveOk=false'
+operationTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1530949899 }
+ok: 0
+errmsg: 'not master and slaveOk=false'
+code: 13435
+codeName: 'NotMasterNoSlaveOk'
+$clusterTime: { clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1530949899 }, signature:  { hash:  Binary { _bsontype: 'Binary', sub_type: 0, position: 20, buffer: <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00> }, keyId: 0 } }
+pid: 4382
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-07 15:51:40,433 ERROR 4382 nodejs.MongoError: not master and slaveOk=false
+    at Function.MongoError.create (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: 'not master and slaveOk=false'
+operationTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1530949899 }
+ok: 0
+errmsg: 'not master and slaveOk=false'
+code: 13435
+codeName: 'NotMasterNoSlaveOk'
+$clusterTime: { clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1530949899 }, signature:  { hash:  Binary { _bsontype: 'Binary', sub_type: 0, position: 20, buffer: <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00> }, keyId: 0 } }
+pid: 4382
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-07 15:51:42,829 ERROR 4383 nodejs.MongoError: not master and slaveOk=false
+    at Function.MongoError.create (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: 'not master and slaveOk=false'
+operationTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1530949899 }
+ok: 0
+errmsg: 'not master and slaveOk=false'
+code: 13435
+codeName: 'NotMasterNoSlaveOk'
+$clusterTime: { clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1530949899 }, signature:  { hash:  Binary { _bsontype: 'Binary', sub_type: 0, position: 20, buffer: <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00> }, keyId: 0 } }
+pid: 4383
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-07 15:51:42,837 ERROR 4383 nodejs.MongoError: not master and slaveOk=false
+    at Function.MongoError.create (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: 'not master and slaveOk=false'
+operationTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1530949899 }
+ok: 0
+errmsg: 'not master and slaveOk=false'
+code: 13435
+codeName: 'NotMasterNoSlaveOk'
+$clusterTime: { clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1530949899 }, signature:  { hash:  Binary { _bsontype: 'Binary', sub_type: 0, position: 20, buffer: <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00> }, keyId: 0 } }
+pid: 4383
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:02,285 ERROR 2676 nodejs.MongoError: not master and slaveOk=false
+    at Function.MongoError.create (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: 'not master and slaveOk=false'
+operationTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531125121 }
+ok: 0
+errmsg: 'not master and slaveOk=false'
+code: 13435
+codeName: 'NotMasterNoSlaveOk'
+$clusterTime: { clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531125121 }, signature:  { hash:  Binary { _bsontype: 'Binary', sub_type: 0, position: 20, buffer: <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00> }, keyId: 0 } }
+pid: 2676
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:02,290 ERROR 2676 nodejs.MongoError: not master and slaveOk=false
+    at Function.MongoError.create (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: 'not master and slaveOk=false'
+operationTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531125121 }
+ok: 0
+errmsg: 'not master and slaveOk=false'
+code: 13435
+codeName: 'NotMasterNoSlaveOk'
+$clusterTime: { clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531125121 }, signature:  { hash:  Binary { _bsontype: 'Binary', sub_type: 0, position: 20, buffer: <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00> }, keyId: 0 } }
+pid: 2676
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:03,997 ERROR 2677 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-09 16:32:04,003 ERROR 2677 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-09 16:32:04,007 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:04,036 ERROR 2677 nodejs.MongoError: not master and slaveOk=false
+    at Function.MongoError.create (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: 'not master and slaveOk=false'
+operationTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531125121 }
+ok: 0
+errmsg: 'not master and slaveOk=false'
+code: 13435
+codeName: 'NotMasterNoSlaveOk'
+$clusterTime: { clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531125121 }, signature:  { hash:  Binary { _bsontype: 'Binary', sub_type: 0, position: 20, buffer: <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00> }, keyId: 0 } }
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:04,049 ERROR 2677 nodejs.MongoError: not master and slaveOk=false
+    at Function.MongoError.create (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: 'not master and slaveOk=false'
+operationTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531125121 }
+ok: 0
+errmsg: 'not master and slaveOk=false'
+code: 13435
+codeName: 'NotMasterNoSlaveOk'
+$clusterTime: { clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531125121 }, signature:  { hash:  Binary { _bsontype: 'Binary', sub_type: 0, position: 20, buffer: <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00> }, keyId: 0 } }
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:04,062 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:04,163 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:04,211 ERROR 2677 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-09 16:32:04,213 ERROR 2677 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-09 16:32:04,315 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:04,518 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:04,557 ERROR 2677 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-09 16:32:04,559 ERROR 2677 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-09 16:32:04,770 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:05,078 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:05,144 ERROR 2677 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-09 16:32:05,146 ERROR 2677 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-09 16:32:05,433 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:05,839 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:06,132 ERROR 2677 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-09 16:32:06,134 ERROR 2677 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-09 16:32:06,296 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:06,800 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:07,353 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-09 16:32:07,809 ERROR 2677 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-09 16:32:07,812 ERROR 2677 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-09 16:32:07,955 ERROR 2677 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 2677
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:30,183 ERROR 1095 nodejs.MongoError: not master and slaveOk=false
+    at Function.MongoError.create (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: 'not master and slaveOk=false'
+operationTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531194862 }
+ok: 0
+errmsg: 'not master and slaveOk=false'
+code: 13435
+codeName: 'NotMasterNoSlaveOk'
+$clusterTime: { clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531194862 }, signature:  { hash:  Binary { _bsontype: 'Binary', sub_type: 0, position: 20, buffer: <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00> }, keyId: 0 } }
+pid: 1095
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:30,188 ERROR 1095 nodejs.MongoError: not master and slaveOk=false
+    at Function.MongoError.create (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: 'not master and slaveOk=false'
+operationTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531194862 }
+ok: 0
+errmsg: 'not master and slaveOk=false'
+code: 13435
+codeName: 'NotMasterNoSlaveOk'
+$clusterTime: { clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531194862 }, signature:  { hash:  Binary { _bsontype: 'Binary', sub_type: 0, position: 20, buffer: <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00> }, keyId: 0 } }
+pid: 1095
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:32,075 ERROR 1096 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-10 11:54:32,080 ERROR 1096 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-10 11:54:32,082 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:32,116 ERROR 1096 nodejs.MongoError: not master and slaveOk=false
+    at Function.MongoError.create (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: 'not master and slaveOk=false'
+operationTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531194862 }
+ok: 0
+errmsg: 'not master and slaveOk=false'
+code: 13435
+codeName: 'NotMasterNoSlaveOk'
+$clusterTime: { clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531194862 }, signature:  { hash:  Binary { _bsontype: 'Binary', sub_type: 0, position: 20, buffer: <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00> }, keyId: 0 } }
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:32,127 ERROR 1096 nodejs.MongoError: not master and slaveOk=false
+    at Function.MongoError.create (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/error.js:31:11)
+    at queryCallback (/Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/cursor.js:212:36)
+    at /Users/zhb/TypeScript/shoppingServer/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: 'MongoError'
+message: 'not master and slaveOk=false'
+operationTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531194862 }
+ok: 0
+errmsg: 'not master and slaveOk=false'
+code: 13435
+codeName: 'NotMasterNoSlaveOk'
+$clusterTime: { clusterTime: Timestamp { _bsontype: 'Timestamp', low_: 1, high_: 1531194862 }, signature:  { hash:  Binary { _bsontype: 'Binary', sub_type: 0, position: 20, buffer: <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00> }, keyId: 0 } }
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:32,135 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:32,241 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:32,281 ERROR 1096 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-10 11:54:32,284 ERROR 1096 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-10 11:54:32,396 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:32,598 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:32,624 ERROR 1096 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-10 11:54:32,627 ERROR 1096 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-10 11:54:32,852 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:33,155 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:33,210 ERROR 1096 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-10 11:54:33,211 ERROR 1096 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-10 11:54:33,511 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:33,917 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:34,198 ERROR 1096 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-10 11:54:34,201 ERROR 1096 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-10 11:54:34,375 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:34,880 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:35,433 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-07-10 11:54:35,878 ERROR 1096 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-10 11:54:35,881 ERROR 1096 Connection Error { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379 }
+2018-07-10 11:54:36,038 ERROR 1096 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 1096
+hostname: zhbdeMacBook-Pro.local
+
+2018-08-03 15:11:57,795 ERROR 2392 nodejs.ClusterClientNoResponseError: client no response in 214297ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/browserServer/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 2392
+hostname: zhbdeMacBook-Pro.local
+
+2018-08-03 17:00:13,404 ERROR 6315 nodejs.ServerNoResponseError: server 127.0.0.1:65521 no response in 40000ms, maybe the socket is end on the other side. (address: 127.0.0.1:65521)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/browserServer/node_modules/tcp-base/lib/base.js:427:21)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ServerNoResponseError'
+pid: 6315
+hostname: zhbdeMacBook-Pro.local
+
+2018-08-03 17:00:32,169 ERROR 6314 nodejs.ClusterClientNoResponseError: client no response in 78765ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhb/TypeScript/browserServer/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 6314
+hostname: zhbdeMacBook-Pro.local
+

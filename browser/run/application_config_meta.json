@@ -1,0 +1,386 @@
+{
+  "keys": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+  "mongoose": {
+    "url": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "options": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+  },
+  "mongooseLogger": {
+    "debug": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "formatter": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+  },
+  "redis": {
+    "clients": {
+      "session": {
+        "port": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "host": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "password": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "db": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+      }
+    },
+    "default": "/Users/zhb/TypeScript/browserServer/node_modules/egg-redis/config/config.default.js",
+    "app": "/Users/zhb/TypeScript/browserServer/node_modules/egg-redis/config/config.default.js",
+    "agent": "/Users/zhb/TypeScript/browserServer/node_modules/egg-redis/config/config.default.js"
+  },
+  "sessionRedis": {
+    "name": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+  },
+  "view": {
+    "defaultViewEngine": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+    },
+    "root": "/Users/zhb/TypeScript/browserServer/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/zhb/TypeScript/browserServer/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/zhb/TypeScript/browserServer/node_modules/egg-view/config/config.default.js"
+  },
+  "news": {
+    "pageSize": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "serverUrl": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+  },
+  "keyv": {
+    "clients": {
+      "instance": {
+        "port": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "host": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "password": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "db": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "namespace": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "adapter": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+      },
+      "user": {
+        "port": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "host": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "password": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "db": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "namespace": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+        "adapter": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+      }
+    },
+    "default": {
+      "url": "/Users/zhb/TypeScript/browserServer/node_modules/egg-keyv/config/config.default.js"
+    },
+    "app": "/Users/zhb/TypeScript/browserServer/node_modules/egg-keyv/config/config.default.js",
+    "agent": "/Users/zhb/TypeScript/browserServer/node_modules/egg-keyv/config/config.default.js"
+  },
+  "passportGithub": {
+    "key": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "secret": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+  },
+  "joi": {
+    "options": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "locale": {
+      "zh-cn": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+    },
+    "enable": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "throw": "/Users/zhb/TypeScript/browserServer/node_modules/egg-joi/config/config.default.js"
+  },
+  "jwt": {
+    "enable": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "secret": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "match": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+  },
+  "static": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+      "useSession": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "allowMethods": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+  },
+  "YFCLOUD": {
+    "dnsname": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "accesskey": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "secrect": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "roomid": "/Users/zhb/TypeScript/browserServer/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "queryField": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "cookieField": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "cookieMaxAge": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+    "dirs": "/Users/zhb/TypeScript/browserServer/node_modules/egg-i18n/config/config.default.js"
+  },
+  "middleware": "/Users/zhb/TypeScript/browserServer/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/zhb/TypeScript/browserServer/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/zhb/TypeScript/browserServer/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/zhb/TypeScript/browserServer/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/zhb/TypeScript/browserServer/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/zhb/TypeScript/browserServer/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/zhb/TypeScript/browserServer/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/zhb/TypeScript/browserServer/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/zhb/TypeScript/browserServer/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/zhb/TypeScript/browserServer/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/zhb/TypeScript/browserServer/node_modules/egg-onerror/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/zhb/TypeScript/browserServer/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/zhb/TypeScript/browserServer/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/zhb/TypeScript/browserServer/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/zhb/TypeScript/browserServer/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/zhb/TypeScript/browserServer/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/zhb/TypeScript/browserServer/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/zhb/TypeScript/browserServer/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/zhb/TypeScript/browserServer/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/zhb/TypeScript/browserServer/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/zhb/TypeScript/browserServer/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/zhb/TypeScript/browserServer/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/zhb/TypeScript/browserServer/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/zhb/TypeScript/browserServer/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/zhb/TypeScript/browserServer/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/zhb/TypeScript/browserServer/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/zhb/TypeScript/browserServer/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/zhb/TypeScript/browserServer/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/zhb/TypeScript/browserServer/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/zhb/TypeScript/browserServer/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/zhb/TypeScript/browserServer/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/zhb/TypeScript/browserServer/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/zhb/TypeScript/browserServer/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/zhb/TypeScript/browserServer/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/zhb/TypeScript/browserServer/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/zhb/TypeScript/browserServer/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/zhb/TypeScript/browserServer/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/zhb/TypeScript/browserServer/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/zhb/TypeScript/browserServer/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/zhb/TypeScript/browserServer/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/zhb/TypeScript/browserServer/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/zhb/TypeScript/browserServer/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+  "name": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "version": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "description": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "private": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "@alicloud/sms-sdk": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "axios": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "binaryen": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "bluebird": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "co-redis": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "config": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "crypto": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "crypto-js": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "csurf": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-i18n": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-joi": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-jwt": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-keyv": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-mongo-native": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-mongoose-logger": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-passport": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-passport-github": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-session-redis": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-socket.io": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-static": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "eosjs": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "fluent-ffmpeg": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "fnv-plus": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "fs": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "hashmap": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "ipfs-api": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "js-base64": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "keen-tracking": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "koa-ratelimit": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "moment": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "mongoose-delete": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "mongoose-findorcreate": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "mongoose-query": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "mongoose-unique-validator": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "node-schedule": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "raven": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "request": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "rongcloud-sdk": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "scanf": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "source-map-support": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "svg-captcha": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "tslib": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@types/cheerio": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "@types/mocha": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "@types/node": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "@types/supertest": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "autod": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "cheerio": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "rimraf": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "tslint": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "clean": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "tsc": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "tsc:w": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "debug": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "dev": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "test": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "cov": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "lint": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "ci": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "autod": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "strict": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "depth": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "env": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "level": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+    "logging": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "port": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/zhb/TypeScript/browserServer/node_modules/egg/config/config.default.js"
+  }
+}
