@@ -58,7 +58,6 @@ export default class BaseController extends Controller {
   async isAllow(code, authorization) {
     const model = this.ctx.model;
     const token = authorization.replace('Bearer ', '');
-
     const infos = await model.Worker.findByToken(token);
     const auths = await model.Roler.findAuth(infos.worker_roler)
     let arrys = auths.roler_auth;

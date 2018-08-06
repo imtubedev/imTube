@@ -82,7 +82,7 @@ export default class GoodsdetailController extends BaseController {
         try {
             const Joi = this.app.Joi;
             this.ctx.validate(Joi.object().keys({
-                id: Joi.string().required()
+                id: Joi.string().min(6).max(16).required()
             }), this.ctx.params);
             await super.destroy('goodsdetail');
         }

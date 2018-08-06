@@ -12,7 +12,7 @@ export default class GoodGroupController extends BaseController {
               groupName: Joi.string().required(),
               first: Joi.string().required(),
               second: Joi.string().required(),
-              describe: Joi.string().required()
+              describe: Joi.string().min(3).max(20).required()
           }),this.ctx.request.body);
           await super.create('goodgroup');
       } catch (err){
@@ -52,7 +52,7 @@ export default class GoodGroupController extends BaseController {
               groupName: Joi.string().required(),
               first: Joi.string().required(),
               second: Joi.string().required(),
-              describe: Joi.string().required()
+              describe: Joi.string().min(3).max(20).required()
           }), this.ctx.request.body);
           await super.update('goodgroup'); 
       } catch (err) {
@@ -72,7 +72,7 @@ export default class GoodGroupController extends BaseController {
           try {
               const Joi = this.app.Joi;
               this.ctx.validate(Joi.object().keys({
-                  id: Joi.string().required()
+                  id: Joi.string().min(6).max(16).required()
               }),this.ctx.params);
               await super.destroy('goodgroup');
           } catch (error) {
